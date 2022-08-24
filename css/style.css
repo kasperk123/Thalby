@@ -277,7 +277,11 @@ margin-bottom: 42px;
 }
 .power .for-img{
     max-width: 385px;
-    margin-right: 50px;
+    margin-right:50px;
+}
+.power .for-img img{
+    width: 100%;
+    display: block;
 }
 .power .discription{
     max-width: 530px;
@@ -315,3 +319,4 @@ margin-bottom: 42px;
     text-decoration-line: underline;
     color: #000000;
 }
+
