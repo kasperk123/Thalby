@@ -270,4 +270,48 @@ margin-bottom: 42px;
     color: #000000;
     margin-left: 344px;
 }
+.power{
+    padding-top: 76px;
+    padding-bottom: 51px;
+    background: rgba(204, 204, 204, 0.3);
+}
+.power .for-img{
+    max-width: 385px;
+    margin-right: 50px;
+}
+.power .discription{
+    max-width: 530px;
+}
+.power .container{
+    margin: auto;
+    max-width: 1064px;
+}
+.power h3{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+}
 
+.power p{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+    margin-top: 31px;
+    margin-bottom: 39px;
+}
+
+.power a{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    text-decoration-line: underline;
+    color: #000000;
+}
