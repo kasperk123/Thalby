@@ -103,50 +103,7 @@ margin-bottom: 42px;
     top:0;
     right: 60px;
 }
-.People{
-    background: rgba(204, 204, 204, 0.3);
-    padding-top: 76px;
-    padding-bottom: 61px;
-}
-.People .for-img{
-    max-width: 385px;
-    margin-right: 50px;
-}
-.People .for-img img{
-    width: 100%;
-    display: block;
-}
-.People .discription {
-    max-width: 498px;
-}
-.People .discription h2{
-    font-family: 'Roboto',sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 42px;
-    color: #000000;
-}
-.People .discription p{
-    font-family: 'Roboto',sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 36px;
-    line-height: 42px;
-    color: #000000;
-    margin-top: 31px;
-    margin-bottom: 40px;
-}
-.People .discription a{
-    font-family: 'Roboto',sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 17px;
-    line-height: 20px;
-    text-decoration-line: underline;
-    color: #000000;
 
-}
 .about{
     padding-top: 60px;
     padding-bottom: 248px;
@@ -222,6 +179,53 @@ margin-bottom: 42px;
     text-decoration-line: underline;
     color: #000000;
     margin-left: 115px;
+}
+
+.People{
+    background: rgba(204, 204, 204, 0.3);
+    padding-top: 76px;
+    padding-bottom: 51px;
+
+}
+.People .for-img{
+    max-width: 385px;
+    margin-right: 50px;
+}
+.People .for-img img{
+    width: 100%;
+    display: block;
+}
+.People .discription {
+    max-width: 498px;
+
+}
+.People .discription h2{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+}
+.People .discription p{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+    margin-top: 31px;
+    margin-bottom: 40px;
+}
+.People .discription a{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    text-decoration-line: underline;
+    color: #000000;
+
 }
 
 .culture{
