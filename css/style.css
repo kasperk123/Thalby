@@ -222,5 +222,52 @@ margin-bottom: 42px;
     text-decoration-line: underline;
     color: #000000;
     margin-left: 115px;
-
 }
+
+.culture{
+    padding-top: 76px;
+    padding-bottom: 51px;
+    background: rgba(204, 204, 204, 0.6);
+}
+.culture .for-img{
+    max-width: 385px;
+    margin-left: 50px;
+}
+.culture .discription{
+ max-width: 513px;
+}
+.culture .container{
+    margin: auto;
+    max-width: 1064px;
+}
+.culture h3{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: right;
+    color: #000000;
+}
+.culture p{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: right;
+    color: #000000;
+    margin: 31px 0;
+}
+.culture a{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: right;
+    text-decoration-line: underline;
+    color: #000000;
+    margin-left: 344px;
+}
+
