@@ -1,0 +1,141 @@
+@media screen and (max-width: 1875px) {
+
+}
+
+@media screen and (max-width: 428px) {
+    .container {
+        padding: 0 15px;
+    }
+
+    nav {
+        display: none;
+    }
+
+    header .logo {
+        position: relative;
+        left: 0;
+        margin-left: 0;
+        top: 0;
+    }
+
+    .People .discription h2 {
+        font-size: 30px;
+        line-height: 42px;
+    }
+
+    .People .discription p {
+        font-size: 30px;
+    }
+
+    .culture .discription h2 {
+        font-size: 30px;
+    }
+
+    .culture .discription p {
+        font-size: 30px;
+    }
+
+    .power .discription h2 {
+        font-size: 30px;
+    }
+
+    .power .discription p {
+        font-size: 30px;
+    }
+
+    .culture a {
+        margin-left: 0;
+    }
+
+    .about-container {
+        padding: 0 15px;
+    }
+
+    footer .list {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .container {
+        padding: 0 15px;
+    }
+
+    .about-container {
+        padding: 0 15px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .People .d-flex {
+        flex-direction: column;
+
+    }
+
+    .culture .d-flex {
+        flex-direction: column;
+    }
+
+    .about .d-flex {
+        flex-direction: column;
+    }
+
+    .power .d-flex {
+        flex-direction: column;
+    }
+
+    .Discover .d-flex {
+        flex-direction: column;
+    }
+
+    .main-banner a img {
+        position: relative;
+        right: 0;
+        top: 0;
+    }
+
+    .main-banner h1 {
+        font-size: 50px;
+        line-height: 70px;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .features .circle-container {
+        margin: auto;
+
+    }
+
+    .Discover .item {
+        padding-top: 200px;
+        margin: auto;
+    }
+
+    .People .discription {
+        padding-top: 30px;
+    }
+
+    .power .discription {
+        padding-top: 30px;
+    }
+
+    .culture .for-img {
+        margin-top: 35px;
+    }
+
+    .culture .discription a {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .container {
+        padding: 0 15px;
+    }
+
+    .about-container {
+        padding: 0 15px;
+    }
+}
