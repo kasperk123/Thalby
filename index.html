@@ -10,12 +10,28 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.default.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
 
+
 </head>
 <body>
+
+<div id="dialog" title="Enter your search query">
+
+    <form name="" action="#" method="post" target="_blank">
+        <label>
+            <input type="text" name=text" class="search" placeholder="Search">
+        </label>
+        <button type="submit">Search</button>
+    </form>
+</div>
+
+
 <header>
     <div class="container d-flex justify-content align-item">
         <nav>
@@ -39,7 +55,7 @@
             </li>
             <li>
                 <a href="#">
-                    <img src="images/search.svg" alt="search"></a>
+                    <img src="images/search.svg" alt="search" id="opener"> </a>
             </li>
             <li>
                 <a href="#">
@@ -62,8 +78,8 @@
             Shop Now
         </a>
     </div>
-    <a href="#">
-        <img src="images/banner.png" alt="banner"> </a>
+
+    <img src="images/banner.png" alt="banner">
 </section>
 
 <section class="about">
@@ -82,8 +98,12 @@
         <h3>Our best sellers </h3>
     </div>
 
-    <div class="sab-container d-flex align-item justify-content">
-        <article>
+    <div class="owl-carousel">
+
+    </div>
+
+    <div class="sab-container d-flex align-item justify-content owl-carousel">
+        <article class="item-1">
             <img src="images/men2.jpg" alt="men">
             <p>Thalby Guide to <br>
                 French Culture and <br>
@@ -92,7 +112,7 @@
             <a href="#"> Add to cart</a>
         </article>
 
-        <article>
+        <article class="item-2">
             <img src="images/women3.jpg" alt="women">
             <p>Thalby Guide to <br>
                 French People and <br>
@@ -101,7 +121,33 @@
             <a href="#"> Add to cart</a>
         </article>
 
-        <article>
+        <article class="item-3">
+            <img src="images/women4.jpg" alt="women">
+            <p>Thalby Guide to <br>
+                German Culture and <br>
+                Heritage</p>
+            <h4>USD 6.99</h4>
+            <a href="#"> Add to cart</a>
+        </article>
+        <article class="item-1">
+            <img src="images/men2.jpg" alt="men">
+            <p>Thalby Guide to <br>
+                French Culture and <br>
+                Heritage</p>
+            <h4>USD 6.99</h4>
+            <a href="#"> Add to cart</a>
+        </article>
+
+        <article class="item-2">
+            <img src="images/women3.jpg" alt="women">
+            <p>Thalby Guide to <br>
+                French People and <br>
+                Society</p>
+            <h4>USD 6.99</h4>
+            <a href="#"> Add to cart</a>
+        </article>
+
+        <article class="item-3">
             <img src="images/women4.jpg" alt="women">
             <p>Thalby Guide to <br>
                 German Culture and <br>
@@ -291,11 +337,10 @@
             inbox
         </p>
 
-        <form>
+        <form name="" action="#" method="post" target="_blank">
             <div class="form-container d-flex justify-content align-item">
 
                 <div class="form-1">
-
 
                     <label for="inputFirstName"> <input type="text" placeholder="First Name" id="inputFirstName">
                     </label>
@@ -316,7 +361,7 @@
                 </label>
             </div>
             <div>
-                <button class="button">
+                <button type="submit">
                     Subscribe
                 </button>
             </div>
@@ -324,8 +369,10 @@
         </form>
     </div>
 </section>
+
 <footer>
     <div class="container d-flex justify-content  ">
+
         <div class="logo ">
             <img src="images/logo-2.svg" alt="logo-2">
             <div class="d-flex justify-content">
@@ -335,31 +382,43 @@
                 <a href="#"><img src="images/twitter.svg" alt="twitter"> </a>
             </div>
         </div>
-        <div class="list d-flex justify-content ">
-            <div>
-                <ul>
-                    <li><a href="#">ABOUT </a></li>
-                    <li><a href="#"> About Us</a></li>
-                    <li><a href="#">Privacy Policy </a></li>
-                    <li><a href="#">Terms and Conditions </a></li>
-                    <li><a href="#"> Write for Us</a></li>
+        <div class="list d-flex  ">
 
-                </ul>
-            </div>
-            <div>
-                <ul>
-                    <li><a href="#">CONTACT </a></li>
-                    <li><a href="#"> Email hi@thalby.com</a></li>
-                    <li><a href="#">Help </a></li>
-                </ul>
-            </div>
+            <ul>
+                <li><a href="#">ABOUT </a></li>
+                <li><a href="#"> About Us</a></li>
+                <li><a href="#">Privacy Policy </a></li>
+                <li><a href="#">Terms and Conditions </a></li>
+                <li><a href="#"> Write for Us</a></li>
+
+            </ul>
+
+            <ul>
+                <li><a href="#">CONTACT </a></li>
+                <li><a href="#"> Email hi@thalby.com</a></li>
+                <li><a href="#">Help </a></li>
+            </ul>
         </div>
     </div>
+
     <h4>
-        Thalby LLC © 2021
-    </h4>
+                Thalby LLC © 2021
+            </h4>
+
+
 </footer>
 
 
-</body>
+
+
+<script
+        src="https://code.jquery.com/jquery-3.6.1.min.js"
+        integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+        crossorigin="anonymous"></script>
+<script src="js/owl.carousel.js"></script>
+<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+<script src="js/scripts.js"></script>
+<script src="https://kit.fontawesome.com/9bb7cecad3.js" crossorigin="anonymous"></script>
+
+ </body>
 </html>
