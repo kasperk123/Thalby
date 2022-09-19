@@ -16,10 +16,11 @@
     <link rel="stylesheet" href="/resources/demos/style.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/style-preproc.css">
 
 
 </head>
-<body>
+<body class="light">
 
 <div id="dialog" title="Enter your search query">
 
@@ -31,24 +32,21 @@
     </form>
 </div>
 
+<header >
+    <div class="header-wrapper container d-flex justify-content align-item">
+        <div class="nav">
+            <nav class="nav__content">
+                <ul class="nav__list">
+                    <li class="nav__list-item active-nav"><a href="#" class="hover-target">Shop</a></li>
+                    <li class="nav__list-item"><a href="#" class="hover-target">Collections</a></li>
+                    <li class="nav__list-item"><a href="#" class="hover-target">Try a Free Guide</a></li>
+                    <li class="nav__list-item"><a href="#" class="hover-target">Stories</a></li>
+                </ul>
+            </nav>
+        </div>
+            <a href="#" class="logo"><img src="images/logo.svg" alt="logo"> </a>
 
-<header>
-    <div class="container d-flex justify-content align-item">
-        <nav>
-            <ul class="d-flex align-item">
-
-                <li><a href="#"> Shop </a></li>
-                <li><a href="#"> Collections </a></li>
-                <li><a href="#"> Try a Free Guide </a></li>
-                <li><a href="#"> Stories </a></li>
-            </ul>
-
-        </nav>
-
-
-        <a href="#" class="logo"><img src="images/logo.svg" alt="logo"> </a>
-        <ul class="d-flex align-item
-">
+        <ul class="d-flex align-item">
             <li>
                 <a href="#">
                     <img src="images/inst.svg" alt="inst"></a>
@@ -62,8 +60,25 @@
                     <img src="images/Frame.svg" alt="shop"></a>
             </li>
         </ul>
+        <div class="nav-but-wrap">
+            <div class="menu-icon hover-target">
+                <span class="menu-icon__line menu-icon__line-left"></span>
+                <span class="menu-icon__line"></span>
+                <span class="menu-icon__line menu-icon__line-right"></span>
+            </div>
+        </div>
     </div>
 </header>
+
+
+
+
+<div class='cursor2' id="cursor2"></div>
+<div class='cursor3' id="cursor3"></div>
+
+
+
+
 <section class="main-banner">
     <div class="container">
         <h1>
@@ -411,8 +426,7 @@
 
 
 
-<script
-        src="https://code.jquery.com/jquery-3.6.1.min.js"
+<script src="https://code.jquery.com/jquery-3.6.1.min.js"
         integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
         crossorigin="anonymous"></script>
 <script src="js/owl.carousel.js"></script>
